@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PRODIGY_WD_05/static/css/main.1d4d59fb.css",
+    "main.js": "/PRODIGY_WD_05/static/js/main.fd1bbc66.js",
+    "static/js/453.0ccb7fb4.chunk.js": "/PRODIGY_WD_05/static/js/453.0ccb7fb4.chunk.js",
+    "static/media/13d.svg": "/PRODIGY_WD_05/static/media/13d.aa9fe108c5c9d0307b01.svg",
+    "static/media/13n.svg": "/PRODIGY_WD_05/static/media/13n.aa9fe108c5c9d0307b01.svg",
+    "static/media/10n.svg": "/PRODIGY_WD_05/static/media/10n.6a1e50d9ab2bd155f819.svg",
+    "static/media/10d.svg": "/PRODIGY_WD_05/static/media/10d.4c0668cce0f70c7678d5.svg",
+    "static/media/09d.svg": "/PRODIGY_WD_05/static/media/09d.6f43169e2db3a96adc41.svg",
+    "static/media/09n.svg": "/PRODIGY_WD_05/static/media/09n.6f43169e2db3a96adc41.svg",
+    "static/media/02n.svg": "/PRODIGY_WD_05/static/media/02n.4aca209bd8bd9e66fcec.svg",
+    "static/media/02d.svg": "/PRODIGY_WD_05/static/media/02d.9a86613b2a5a0aebf924.svg",
+    "static/media/50d.svg": "/PRODIGY_WD_05/static/media/50d.e61faee5b9692f9897af.svg",
+    "static/media/50n.svg": "/PRODIGY_WD_05/static/media/50n.e61faee5b9692f9897af.svg",
+    "static/media/11d.svg": "/PRODIGY_WD_05/static/media/11d.639df886958499f6f0fc.svg",
+    "static/media/11n.svg": "/PRODIGY_WD_05/static/media/11n.639df886958499f6f0fc.svg",
+    "static/media/01n.svg": "/PRODIGY_WD_05/static/media/01n.9ed9031b8fd64da63790.svg",
+    "static/media/01d.svg": "/PRODIGY_WD_05/static/media/01d.54288da67b71b4b19483.svg",
+    "index.html": "/PRODIGY_WD_05/index.html",
+    "static/media/03d.svg": "/PRODIGY_WD_05/static/media/03d.f6e6108ec3b4605bda2a.svg",
+    "static/media/03n.svg": "/PRODIGY_WD_05/static/media/03n.f6e6108ec3b4605bda2a.svg",
+    "static/media/04d.svg": "/PRODIGY_WD_05/static/media/04d.f6e6108ec3b4605bda2a.svg",
+    "static/media/04n.svg": "/PRODIGY_WD_05/static/media/04n.f6e6108ec3b4605bda2a.svg",
+    "main.1d4d59fb.css.map": "/PRODIGY_WD_05/static/css/main.1d4d59fb.css.map",
+    "main.fd1bbc66.js.map": "/PRODIGY_WD_05/static/js/main.fd1bbc66.js.map",
+    "453.0ccb7fb4.chunk.js.map": "/PRODIGY_WD_05/static/js/453.0ccb7fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d4d59fb.css",
+    "static/js/main.fd1bbc66.js"
+  ]
+}
