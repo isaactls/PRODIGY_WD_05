@@ -49,7 +49,6 @@ function Weather() {
   const handleChange = (e) => {
     setSearchInput(e.target.value);
   };
-  console.log(weatherIcon);
   return (
     <div className="container">
       <form className="search" onSubmit={handleSubmit}>
