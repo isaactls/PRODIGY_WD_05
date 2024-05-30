@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { FaSearch } from "react-icons/fa";
 import { WiHumidity } from "react-icons/wi";
 import { FaWind } from "react-icons/fa";
 import "./weather.css";
+import search from "../assets/images/icons8-search.svg"
 
 function Weather() {
   const [city, setCity] = useState("");
@@ -29,18 +29,11 @@ function Weather() {
   const humidity = weatherData.main ? weatherData.main.humidity : null;
   const windSpeed = weatherData.wind ? weatherData.wind.speed : null;
   const country = weatherData.sys ? weatherData.sys.country : null;
-  const sunrise = weatherData.sys ? weatherData.sys.sunrise : null;
-  const sunset = weatherData.sys ? weatherData.sys.sunset : null;
-  const currentTime = weatherData.dt ? weatherData.dt : null;
   const iconCode = weatherData.weather ? weatherData.weather[0].icon : null;
   const weatherIcon =
     iconCode != null
       ? require(`../assets/images/openweathermap/${iconCode}.svg`)
       : null;
-
-  const isDayTime = () => {
-    return currentTime >= sunrise && currentTime <= sunset;
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -52,7 +45,7 @@ function Weather() {
   return (
     <div className="container">
       <form className="search" onSubmit={handleSubmit}>
-        <FaSearch />
+        <img src={search} alt="" style={{ width: "30px", height: "30px" }}/>
         <input
           type="text"
           placeholder="Enter The City Here"
@@ -63,7 +56,7 @@ function Weather() {
       <div className="results">
         <figure>
           <img
-            src={weatherIcon}
+            src={weatherIcon} className="weather-img"
             alt=""
             style={{ width: "150px", height: "auto", margin : "0 auto" }}
           />

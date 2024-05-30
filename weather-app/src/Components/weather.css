@@ -30,11 +30,9 @@
     padding: 0 10px;
     background-color: transparent;
 }
-.search input:active{
-    border: none;
-}
+
 .search button{
-    padding : 0;
+    padding : 0 8px;
     height: 100%;
     border: 0;
     width: 65px;
@@ -56,6 +54,9 @@
 figure{
     display: flex;
     justify-content: center;
+}
+.weather-img{
+    width: 100%;
 }
 .temperature{
     align-self: center;
@@ -88,4 +89,20 @@ span{
 .extra-icons{
     width: 30px;
     height: auto;
+}
+
+@media(max-width : 480px){
+.search{
+    width: 260px;
+}
+.search *{
+    flex: 1 1 auto;
+    width: 100%;
+}
+.container{
+    width: 300px;
+}
+.additional{
+    margin: 50px 0;
+}
 }
