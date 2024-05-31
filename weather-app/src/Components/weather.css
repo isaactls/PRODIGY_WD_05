@@ -16,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px rgb(197, 196, 196);
     width: 300px;
     height: 40px;
     padding: 0 0 0 5px;
@@ -37,12 +36,10 @@
     border: 0;
     width: 65px;
     border-radius: 8px;
-    background-color: rgb(2, 80, 2);
+    background-color: #007dfa;
     color: #fff;
 }
-.search *{
-    flex: 1;
-}
+
 .results{
     display: flex;
     flex-direction: column;
@@ -89,6 +86,12 @@ span{
 .extra-icons{
     width: 30px;
     height: auto;
+}
+
+.value{
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: lowercase;
 }
 
 @media(max-width : 480px){

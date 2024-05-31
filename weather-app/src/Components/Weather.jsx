@@ -45,10 +45,10 @@ function Weather() {
   return (
     <div className="container">
       <form className="search" onSubmit={handleSubmit}>
-        <img src={search} alt="" style={{ width: "30px", height: "30px" }}/>
+        <img src={search} alt="" style={{ width: "25px", height: "25px" }}/>
         <input
           type="text"
-          placeholder="Enter The City Here"
+          placeholder="search city"
           onChange={handleChange}
         />
         <button type="submit">search</button>
@@ -69,14 +69,14 @@ function Weather() {
           <div className="humidity additional-container">
             <WiHumidity className="extra-icons" />
             <div>
-              <span className="value">{humidity}</span>
+              <span className="value">{humidity}%</span>
               <span className="title">humidity</span>
             </div>
           </div>
           <div className="windspeed additional-container">
             <FaWind className="extra-icons" />
             <div>
-              <span className="value">{windSpeed}</span>
+              <span className="value">{windSpeed} m/s</span>
               <span className="title">wind speed</span>
             </div>
           </div>
